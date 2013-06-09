@@ -19,7 +19,7 @@ Rails 3.2.13
 
      #app/controllers/products_controller.rb
      def monthly
-       @monthlies = Product.where('monthly = ?','t')
+       @products = Product.where('monthly = ?','t')
 
        format do |format|
          format.html
