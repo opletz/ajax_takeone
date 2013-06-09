@@ -23,7 +23,7 @@ Rails 3.2.13
 
        format do |format|
          format.html
-         format.json { render :json   => @monthlies }
+         format.json { render :json   => @products }
          format.js   { render :layout => false }
        end
      end
